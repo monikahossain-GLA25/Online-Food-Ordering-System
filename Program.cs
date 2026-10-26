@@ -1,7 +1,21 @@
+using Online_Food_Ordering_System.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
+builder.Services.AddDbContext<FoodDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("FoodDB")));
+
+
+
+
+
 
 var app = builder.Build();
 

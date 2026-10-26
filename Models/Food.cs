@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+
+using System;
 using System.ComponentModel.DataAnnotations;
 namespace Online_Food_Ordering_System.Models
 {
@@ -10,8 +12,11 @@ namespace Online_Food_Ordering_System.Models
         [StringLength(100)]
         public string Name { get; set; }
 
+        [Precision(18, 2)]
         [Range(1, 10000)]
         public decimal Price { get; set; }
+
+
 
         public string Category { get; set; }
     }

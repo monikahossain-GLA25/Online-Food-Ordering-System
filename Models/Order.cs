@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -15,6 +16,7 @@ namespace Online_Food_Ordering_System.Models
         public string FoodName { get; set; }
 
         public int Quantity { get; set; }
+        [Precision(18, 2)]
         public decimal TotalPrice { get; set; }
 
         public DateTime OrderDate { get; set; }
