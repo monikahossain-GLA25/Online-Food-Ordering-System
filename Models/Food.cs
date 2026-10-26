@@ -1,4 +1,6 @@
-﻿namespace Online_Food_Ordering_System.Models
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+namespace Online_Food_Ordering_System.Models
 {
     public class Food
     {
