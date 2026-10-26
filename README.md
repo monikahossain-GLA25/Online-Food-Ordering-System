@@ -16,7 +16,7 @@ FoodExpress is a beginner-to-intermediate ASP.NET MVC learning project developed
 - IIS deployment fundamentals
 
 ### Learning Objectives
-Understand the 12 core ASP.NET MVC concepts, including .NET runtime fundamentals, CLR, garbage collection, MVC architecture, routing, ActionResult, Razor syntax, strongly typed views, database integration, state management, and application deployment.
+For my own understand the 12 core ASP.NET MVC concepts, including .NET runtime fundamentals, CLR, garbage collection, MVC architecture, routing, ActionResult, Razor syntax, strongly typed views, database integration, state management, and application deployment.
 
 ### Technology Stack
 - C#
